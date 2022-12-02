@@ -2,6 +2,8 @@
 
 import codecs
 
+# Поиск по имени
+
 def Find_by_name ():
     name = input('Введите имя: ')
     num_line_list =[]
@@ -13,6 +15,8 @@ def Find_by_name ():
                 num_line_list.append(_)
     
     return num_line_list
+
+# Поиск по номеру телефона
 
 def Find_by_name ():
     number = input('Введите имя: ')
