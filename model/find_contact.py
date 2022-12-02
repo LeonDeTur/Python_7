@@ -4,10 +4,9 @@ import codecs
 
 # Поиск по имени
 
-def Find_by_name ():
-    name = input('Введите имя: ')
+def Find_by_name (name):
     num_line_list =[]
-    with codecs.open('C:/Users/thebe/OneDrive/Рабочий стол/GIT/Python/Python_7/data/phonebook.txt', 'r', 'utf-8') as phonebook:
+    with codecs.open('phonebook.txt', 'r', 'utf-8') as phonebook:
         _ = 0
         for line in phonebook:
             _ += 1
@@ -18,10 +17,10 @@ def Find_by_name ():
 
 # Поиск по номеру телефона
 
-def Find_by_name ():
-    number = input('Введите имя: ')
+def Find_by_phone (phone):
+    number = phone
     num_line_list =[]
-    with codecs.open('C:/Users/thebe/OneDrive/Рабочий стол/GIT/Python/Python_7/data/phonebook.txt', 'r', 'utf-8') as phonebook:
+    with codecs.open('phonebook.txt', 'r', 'utf-8') as phonebook:
         _ = 0
         for line in phonebook:
             _ += 1
